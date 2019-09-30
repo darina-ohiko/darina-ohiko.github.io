@@ -19,7 +19,7 @@ body {
   min-width: 320px;
   position: relative;
   -webkit-font-smoothing: antialised;
-  background-color: #000;
+  background-color: #111;
   line-height: 1.4;
   color: #fff;
 }
@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, p {
 h1 {
   font-size: 120px;
   font-family: $segoe-script;
+  line-height: 1;
+  @media only screen and (max-width: 991px) {
+    font-size: 16vw;
+  }
 }
 
 ul, li {
