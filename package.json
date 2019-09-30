@@ -1,0 +1,26 @@
+{
+  "main": "gulpfile.js",
+  "scripts": {},
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^4.0.2",
+    "npm": "^6.7.0"
+  },
+  "browserslist": [
+    "last 4 versions"
+  ],
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-minify": "^3.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-include": "^2.3.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.1"
+  }
+}

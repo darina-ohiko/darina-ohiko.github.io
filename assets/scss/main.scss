@@ -1,0 +1,7 @@
+$default-font: 'OpenSans', Arial, Helvetica, sans-serif;   //font-family: $default-font;
+$segoe-script: 'SegoeScript', Arial, Helvetica, sans-serif; //font-family: $segoe-script;
+
+@import "partials/normalize";
+@import "partials/fonts";
+@import "partials/main-styles";
+@import "partials/page";
