@@ -69,6 +69,17 @@
           max-width: 100%;
         }
       }
+      .hover {
+        display: none;
+      }
+      &:hover {
+        .idle {
+          display: none;
+        }
+        .hover {
+          display: block;
+        }
+      }
     }
   }
 }
